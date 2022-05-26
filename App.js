@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Image, View, SafeAreaView, Text, Pressable, Linking } from 'react-native';
 
 const colorFundoGit = '#010409';
-const imagenGitHub = 'https://avatars.githubusercontent.com/u/59882986?s=96&v=4';
+const imagenGitHub = 'https://avatars.githubusercontent.com/u/59882986?s=400&u=a2590d2311eb4bfd26a70fb1e301ab0a2fb87003&v=4';
 const handoPressGitHub = 'https://github.com/Gilberto-Martins'
 
 export default function App() {
@@ -30,7 +30,7 @@ export default function App() {
         
         <Text accessibilityLabel='Nome: Gilberto Martins' style={[styles.texto, styles.name]}>Gilberto Martins </Text>
         <Text accessibilityLabel='NickName: gilbertomartins' style={[styles.texto, styles.nickname]}>gilbertomatins</Text>
-        <Text accessibilityLabel='Descrição: Sou um Universitário da Uninassau. curso: bacharel Ciência da Computação.' style={[styles.texto, styles.descricao]}>Concluindo bacharelado em ciências da computação. Alguns dos meus hobbies são Games, Ficção e adquirir cada vez mais conhecimento por desenvolvimento Mobile. Sou autodidata e gosto de desafios.</Text>
+        <Text accessibilityLabel='Concluindo bacharelado em ciências da computação. Alguns dos meus hobbies são Games, Ficção e adquirir cada vez mais conhecimento por desenvolvimento Mobile. Sou autodidata e gosto de desafios' style={[styles.texto, styles.descricao]}>Concluindo bacharelado em ciências da computação. Alguns dos meus hobbies são Games, Ficção e adquirir cada vez mais conhecimento por desenvolvimento Mobile. Sou autodidata e gosto de desafios.</Text>
 
         <View style={styles.Dio}>
           <View style={styles.caixinhas}></View>{/**1 */}
